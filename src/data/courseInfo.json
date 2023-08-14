@@ -1,0 +1,19 @@
+[{
+  "Major": "CSSE",
+  "CourseNumber": [
+    "120 - Introduction to Software Development",
+    "132 - Introduction to Computer Systems",
+    "220 - Object-Oriented Software Development",
+    "230 - Data Structures & Algorithm Analysis",
+    "232 - Computer Architecture I",
+    "280 - Intro to Web Programming",
+    "332 - Operating Systems",
+    "304 - Programming Lang. Con.",
+    "333 - Database Systems",
+    "371 - Software Requirements Engineering",
+    "374 - Software Design"]
+},
+  {
+    "Major": "Math",
+    "CourseNumber": []
+  }]

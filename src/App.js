@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import {Button} from "react-bootstrap";
+import CoursePage from "./Pages/CoursePage";
+import ProfessorPage from "./Pages/ProfessorPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <div>Hello world!</div>,
+    },
+]);
+
+export default function App() {
+    return (
+        <div>
+            {/*<Button href={'/CoursePage'}>Login</Button>*/}
+            <BrowserRouter>
+                <Routes>
+                    <Route path={'/CoursePage/*'} element={<CoursePage />} />
+                    <Route path={'/ProfessorPage/*'} element={<ProfessorPage/>}/>
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
+
 }
-
-export default App;
