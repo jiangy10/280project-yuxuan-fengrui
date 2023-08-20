@@ -1,13 +1,11 @@
 import {Card, Container} from 'react-bootstrap'
-import { BiLike,BiDislike } from 'react-icons/bi';
-import {useState} from "react";
 import Experience from './Experience'
 import Suggestion from './Suggestion'
 
 export default function DetailCard({course}){
     return(
-        <Card >
-            <Card.Body style={{marginLeft: '10px '}}>
+        <Card style={{borderColor:'transparent', backgroundColor: 'transparent'}}>
+            <Card.Body style={{marginLeft: '10px ', padding:'0'}}>
                 {course.Time.map(time =>(
                     <Card.Title>{time}</Card.Title>
                 ))}

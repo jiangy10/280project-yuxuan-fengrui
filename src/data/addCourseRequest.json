@@ -1,0 +1,42 @@
+[{
+  "id": "n5svet",
+  "CourseNumber": "MA 221",
+  "Quarter": "2021-2022 Winter",
+  "Instructor": "Naomi Balware",
+  "Section": ["01", "02"],
+  "Syllabus": "221syllabus.pdf",
+  "Time": ["session 1: MWTF 1pm - 2pm", "session 2: MWTF 3pm - 4pm"],
+  "WorkLoad": ["Four classes per week along with quizzes",
+    "HW twice a week", "three term exams" , "one final exam"
+  ],
+  "Experience": [{"info": "high workload"},
+    {"info": "helpful professors"},
+    {"info": "challenging exams"},
+    {"info": "Professor replies in time with emails"}],
+  "Suggestions": [{"info": "review course quizzes daily"},
+    {"info": "ask questions to the tutor regularly"},
+    {"info": "get as much as practices as you can"}]
+
+},
+
+  {
+    "id": "n1misc",
+    "CourseNumber": "MA 113",
+    "Quarter": "2021-2022 Fall",
+    "Instructor": "Kyle Claasen",
+    "Section": ["02", "03"],
+    "Syllabus": "113syllabus.pdf",
+    "Time": ["session 2: MWTF 9am - 10am", "session 3: MWTF 2pm - 3pm"],
+    "WorkLoad": ["Four classes per week along with quizzes",
+      "HW twice a week", " three mid-term exams","one final exam"
+    ],
+    "Experience": [{"info": "high workload"},
+      {"info": "helpful professors"},
+      {"info": "challenging exams"},
+      {"info": "Professor replies in time with emails"}],
+    "Suggestions": [{"info": "review course quizzes and MATLAB"},
+      {"info": "ask questions regularly"},
+      {"info": "get as much as practices as you can"},
+      {"info": "do practice exams before exam time"}]
+
+  }]
